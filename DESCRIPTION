@@ -17,3 +17,5 @@ Suggests:
     tidyverse, janitor, data.table, ggplot2, testthat
 Imports: 
     dplyr
+Depends: 
+    R (>= 2.10)
