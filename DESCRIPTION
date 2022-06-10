@@ -1,21 +1,23 @@
 Package: soildatademo
 Type: Package
-Title: demo database to run with soil data demo scripts (Title Case)
+Title: Demo Database With Soil Information
 Version: 0.1.0
-Authors@R:
-    person("Jin","Zhang",, "jza18@sfu.ca"
-            commen = c(ORCID = "YOUR-ORCID-ID"))
+Authors@R: c(
+    person("Jin","Zhang", email="jza18@sfu.ca", role =c("aut","cre"))
+    )
 Maintainer: The package maintainer <jza18@sfu.ca>
-Description: This is a subset of BCSOIL 2020. The purpose is to run demostration
-    of the scripts which form the BCSOIL 2020. 
+Description: This is a subset of BCSOIL 2020 and selected soil attributes. 
+    The purpose is to run demostration of the scripts which form the BCSOIL 2020. 
     Use four spaces when indenting paragraphs within the Description.
-License: 'use_mit_license()'
+Depends: R (>= 3.1)
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 LazyData: true
 Suggests: 
     tidyverse, janitor, data.table, ggplot2, testthat
 Imports: 
+    tibble,
     dplyr
-Depends: 
-    R (>= 2.10)
+URL: https://github.com/JinZhangS/soildatademo
+RoxygenNote: 7.2.0
