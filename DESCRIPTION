@@ -1,0 +1,22 @@
+ackage: soildatademo
+Type: Package
+Title: demo database to run with soil data demo scripts (Title Case)
+Version: 0.1.0
+Authors@R:c(
+    person("Jin","Zhang", email="jza18@sfu.ca", role =c("aut","cre"))
+    )
+    
+Maintainer: The package maintainer <jza18@sfu.ca>
+Description: This is a subset of BCSOIL 2020 and selected soil attributes. 
+    The purpose is to run demostration of the scripts which form the BCSOIL 2020. 
+    Use four spaces when indenting paragraphs within the Description.
+Depends: R (>= 3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LazyData: true
+URL:
+Suggests: 
+    tidyverse, janitor, data.table, ggplot2, testthat
+Imports: 
+    dplyr
