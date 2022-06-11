@@ -17,6 +17,5 @@ site_demo<-site_demo %>%
   filter(DATA_SOURCE == "BCSIS")
 
 use_data(soil_demo, overwrite = TRUE)
-use_data(soil_har_demo, overwrite = TRUE)
 use_data(site_demo, overwrite = TRUE)
 
